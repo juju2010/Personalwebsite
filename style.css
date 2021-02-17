@@ -36,14 +36,29 @@ img {
     cursor: pointer;
     color: black;
 }
-#welcome{
+
+#welcome {
     font-family: 'Raleway', sans-serif;
 }
 
-.link{ color:crimson;
+.link {
+    color: crimson;
     display: inline;
-    padding-top:5px;
-    padding-left:9px;
-    padding-right:9px;
-    padding-bottom: 5px; 
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+}
+
+.button {
+    background-color: aquamarine;
+    border: none;
+    color: blue;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
