@@ -27,10 +27,11 @@ body {
     z-index: 9;
 }
 
-#bio {
+#hobby {
     padding: 50px;
     text-align: center;
     font-size: 40px;
+    background: linear-gradient(red, orange);
 }
 
 .line {
@@ -86,25 +87,9 @@ h1 {
     font-weight: 300;
 }
 
-#name {
-    font-size: 30px;
-    line-height: 1.2;
-    font-family: 'cinzel decorative', cursive;
-}
-
-h2 {
-    font-size: 32px;
-    font-weight: 300;
-    line-height: 1.2;
-    font-family: monospace;
-}
 
 a {
     text-decoration: none;
-}
-
-.article:hover {
-    color: blueviolet
 }
 
 html {
@@ -117,4 +102,22 @@ img{
 }
 img:hover{
     transform: scale(0.9);
+}
+
+#contact{
+    background: linear-gradient(green, blue)!important;
+}
+
+#videos{
+    background:linear-gradient(orange, yellow)!important;
+}
+ 
+#inspiration{
+    background: linear-gradient(yellow, green)!important;
+}
+
+.my_nav_bar{
+    position: sticky;
+    top: 0;
+    z-index: 99999;
 }
