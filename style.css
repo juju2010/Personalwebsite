@@ -20,7 +20,7 @@ body {
     top: 0;
     bottom: 0;
     opacity: 0.83;
-    background: linear-gradient(blue, red);
+    background: linear-gradient(#55C9C9, #0010F2);
     display: table;
     width: 100%;
     height: 100%;
@@ -31,7 +31,7 @@ body {
     padding: 50px;
     text-align: center;
     font-size: 40px;
-    background: linear-gradient(red, orange);
+    background: linear-gradient(blue, red);
 }
 
 .line {
@@ -68,7 +68,7 @@ p {
 
 .links {
     float: left;
-    color: white;
+    color:white;
     padding-top: 5px;
     padding-right: 9px;
     padding-left: 9px;
@@ -105,7 +105,7 @@ img:hover{
 }
 
 #contact{
-    background: linear-gradient(green, blue)!important;
+    background: linear-gradient(#FF0000, #C800FF)!important;
 }
 
 #videos{
@@ -113,11 +113,6 @@ img:hover{
 }
  
 #inspiration{
-    background: linear-gradient(yellow, green)!important;
+    background: linear-gradient(yellow, #04FF00)!important;
 }
 
-.my_nav_bar{
-    position: sticky;
-    top: 0;
-    z-index: 99999;
-}
